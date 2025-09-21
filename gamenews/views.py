@@ -23,6 +23,8 @@ from gamenews.models import Category, Comment, Post
 
 VSEGPT_KEY = os.getenv('VSEGPT_KEY')
 
+# Привет мир!
+
 def check_comment_with_AI(text):
 
     question = f'''Ты - ИИ-модератор сайта для комментариев.
