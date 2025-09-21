@@ -16,6 +16,8 @@ import os
 
 load_dotenv()
 
+# sdgfdfgfdgfsd
+
 from gamenews.forms import AddPostForm, CommentForm
 from gamenews.models import Category, Comment, Post
 
