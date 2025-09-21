@@ -41,7 +41,6 @@ def check_comment_with_AI(text):
     )
 
     response_data = response.json()
-    print(response_data)
     msg = response_data["choices"][0]["message"]["content"]
 
     if msg.lower() == 'true':
