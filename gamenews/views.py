@@ -23,7 +23,8 @@ from gamenews.models import Category, Comment, Post
 
 VSEGPT_KEY = os.getenv('VSEGPT_KEY')
 
-# Привет мир!
+# pip freeze > requirements.txt
+# pip install -r requirements.txt
 
 def check_comment_with_AI(text):
 
